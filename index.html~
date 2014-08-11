@@ -63,10 +63,10 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</a>					
-						<a class="brand" data-section="body" href="index.html">
+						<a class="brand" data-section="body" href="index.html" style="width:100px">
 							<!-- <img src="assets/img/big-thing-logo.png" alt="Big Thing Logo" /> -->
 							<h1 class="hide">BIG Thing | App, Subscription Service and General Product Landing Page</h1>
-							<h2>SafeBus</h2>
+							<h2><img src="assets/img/SafeBus.png"/></h2>
 						</a>	
 						<nav id="main-menu" class="nav-collapse collapse">
 							<h2 class="hide">Main Navigation</h2>
@@ -130,7 +130,7 @@
 					<div class="span6">
 						<h2 class="heading">100% dôvera a bezpečnosť</h2>
 						<p class="description">Webová / mobilná aplikácia Vám umožní:
-							<ul>
+							<ul class="list">
 								<li>prijímanie live notifikácii o stave</li>
 								<li>kontrolu trasy</li>
 								<li>súčastnú polohu SafeBusu</li>
@@ -141,13 +141,13 @@
 						</p>
 					</div>
 					<div class="span6">
-						<img src="assets/img/feature-responsive.png" class="no-shadow" alt="Feature" />
+						<img src="assets/img/cell-phone.png" class="no-shadow" alt="Feature" />
 					</div>					
 				</div>
 				<hr />
 				<div class="row-fluid feature-item">
 					<div class="span6">
-						<img src="assets/img/feature-easy-customize.png" alt="Feature" />
+						<img src="assets/img/rsz_superhero.jpg" alt="Our mission"/>
 					</div>
 					<div class="span6 right-text">
 						<h2 class="heading">Naša misia</h2>
