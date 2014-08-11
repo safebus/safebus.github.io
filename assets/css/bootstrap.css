@@ -823,7 +823,9 @@ ol ul {
 }
 
 li {
-  line-height: 20px;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 ul.unstyled,
