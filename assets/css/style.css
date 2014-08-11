@@ -700,7 +700,7 @@ html[xmlns] .slides {display: block;}
 
 .map_pin {
 	width: 13px;
-	padding: 2px;
+	margin-right: 2px;
 }
 
 .social li a {
