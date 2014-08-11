@@ -22,7 +22,7 @@ html {
 body {
 	position: relative;
 	background: url(../img/diagonal-stripe.png) repeat #f2f2f2;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif !important;
 	font-size: 13px;
 	color: #323232;
 }
@@ -334,6 +334,7 @@ html[xmlns] .slides {display: block;}
 	text-shadow: 1px 1px 0px #fff;
 	line-height: 1;
 	margin-top: 0;	
+	font-family: 'Open Sans', sans-serif;
 }
 
 .section .description {
@@ -461,6 +462,7 @@ html[xmlns] .slides {display: block;}
 .hero-text .heading {
 	font-size: 3.5em;
 	line-height: 1.2;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .hero-text .description {
