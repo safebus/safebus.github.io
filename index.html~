@@ -63,7 +63,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</a>					
-						<a class="brand" data-section="body" href="index.html" style="width:100px">
+						<a class="brand" data-section="body" href="index.html" style="width:120px">
 							<!-- <img src="assets/img/big-thing-logo.png" alt="Big Thing Logo" /> -->
 							<h1 class="hide">BIG Thing | App, Subscription Service and General Product Landing Page</h1>
 							<h2><img src="assets/img/SafeBus.png"/></h2>
@@ -152,7 +152,9 @@
 					<div class="span6 right-text">
 						<h2 class="heading">Naša misia</h2>
 						<p class="description">
-							Našou misiou je pomáhať Vám, rodičom, pri riešení problémov, ktoré vznikajú pri transporte Vašich ratolestí. Či už to býva časový stres ráno pri odvoze, alebo v poobedňajších hodinách pri vyzdvihnutí zo škôl alebo mimoškolských aktivít. 
+Myslíme si, že doprava by nemala predstavovať prekážku v osobnom rozvoji mladého človeka.
+Našou misiou je zjednodušiť deťom prístup k záujmovým a vzdelávacím aktivitám a poskytnúť im bezpečný transport.
+
 						</p>
 					</div>
 				</div>				
