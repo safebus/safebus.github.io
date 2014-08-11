@@ -683,6 +683,11 @@ html[xmlns] .slides {display: block;}
 	font-size: 0.9em;
 }
 
+.place {
+	font-size: 0.9em;
+	text-align: right;
+}
+
 .social ul {
 	list-style-type: none;
 	text-align: right;
@@ -693,6 +698,11 @@ html[xmlns] .slides {display: block;}
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
+}
+
+.map_pin {
+	width: 13px;
+	margin-right: 2px;
 }
 
 .social li a {
