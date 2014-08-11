@@ -165,7 +165,7 @@
 						<div class="row-fluid">
 							<div class="span6">
 								<h3 class="heading">Máte záujem o novinky?</h3>
-								<p class="description">Buďte vždy informovaní o tom, čo práve robíme.</p>
+								<p class="description">Buďte vždy informovaní o tom, na čom práve pracujeme.</p>
 							</div>
 								
 								<iframe name="invites_iframe2" style="display: none"></iframe>
@@ -270,6 +270,7 @@
 			<div class="container">
 				<div class="row-fluid">
 					<div class="span6 copyright">Copyright 2014 SafeBus. Všetky práva vyhradené.</div>
+					<div class="place"><img src="assets/img/map_pin.png">The Spot, Námestie SNP 30, 811 01 Bratislava</div>
 					<!-- <div class="span6 social">
 						<ul>
 							<li><a href="#"><i class="socicon facebookcircle"></i></a></li>
