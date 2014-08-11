@@ -22,7 +22,7 @@ html {
 body {
 	position: relative;
 	background: url(../img/diagonal-stripe.png) repeat #f2f2f2;
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #323232;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'OstrichSansRoundedMedium';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
@@ -98,7 +98,6 @@ figure {
   font-weight: normal;
   font-style: normal;
 }
-
 
 /* Socialico, Social Media Icons
 -------------------------------------------------- */
@@ -341,6 +340,7 @@ html[xmlns] .slides {display: block;}
 	font-size: 1.8em;	
 	font-weight: 300;
 	line-height: 1.6;
+	ffont-family: 'Open Sans', sans-serif;
 }
 
 /* navbar */
@@ -390,6 +390,7 @@ html[xmlns] .slides {display: block;}
 	width: 100%;
 	margin: 0;
 	z-index: 99;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #top-nav .navbar-inner {
@@ -469,6 +470,7 @@ html[xmlns] .slides {display: block;}
 	margin-bottom: 45px;	
 	font-size: 1.4em;
 	line-height: 1.6;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Features
@@ -702,7 +704,7 @@ html[xmlns] .slides {display: block;}
 
 .map_pin {
 	width: 13px;
-	margin-right: 2px;
+	margin-right: 8px;
 }
 
 .social li a {
@@ -915,6 +917,7 @@ html[xmlns] .slides {display: block;}
 }
 
 .subscribe_form form .btn {
+	font-family: 'Open Sans', sans-serif;
 	padding: 19px 24px;
 	font-size: 1.4em;
 	margin-top: -20px;
@@ -941,4 +944,20 @@ html[xmlns] .slides {display: block;}
 
 .contact-btn{
 	margin-top: 30px !important;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+    padding-top: 5px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
 }
