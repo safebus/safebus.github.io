@@ -909,7 +909,8 @@ html[xmlns] .slides {display: block;}
 }
 
 .footer-alert{
-	float: left;
+	float: none;
+	margin-top: 100px;
 }
 
 .input-email form input{
@@ -924,4 +925,8 @@ html[xmlns] .slides {display: block;}
 	padding: 19px 24px;
 	font-size: 1.4em;
 	margin-top: -20px;
+}
+
+.contact-btn{
+	margin-top: 30px !important;
 }
