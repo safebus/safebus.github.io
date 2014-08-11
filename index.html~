@@ -164,8 +164,8 @@
 					<div class="container">
 						<div class="row-fluid">
 							<div class="span6">
-								<h3 class="heading">Newsletter</h3>
-								<p class="description">Buďte vždy informovaní o </p>
+								<h3 class="heading"></h3>
+								<p class="description">Stay up to date with the latest news by subscribing to our newsletter.</p>
 							</div>
 								
 								<iframe name="invites_iframe2" style="display: none"></iframe>
@@ -174,8 +174,8 @@
 							    </div>
 							    
 							      <form target="invites_iframe2" id="subscribe-form2" onsubmit  action="https://docs.google.com/forms/d/1RYGizJ1QgO-LwLhiH9mOvkzYTUheQg9v-9X6c3c1HI4/formResponse">
-							        <input type="email" required id="email-top" name="entry.1166011680" placeholder="Váš email" class="input-email">
-							        <button type="submit" class="btn btn-primary">Mám záujem</button>
+							        <input type="email" required id="email-top" name="entry.1166011680" placeholder="Enter your email" class="input-email">
+							        <button type="submit" class="btn btn-primary">Request invitation</button>
 							      </form>
 
 
