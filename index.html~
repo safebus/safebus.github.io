@@ -164,8 +164,8 @@
 					<div class="container">
 						<div class="row-fluid">
 							<div class="span6">
-								<h3 class="heading"></h3>
-								<p class="description">Stay up to date with the latest news by subscribing to our newsletter.</p>
+								<h3 class="heading">Máte záujem o novinky?</h3>
+								<p class="description">Buďte vždy informovaní o tom, čo práve robíme.</p>
 							</div>
 								
 								<iframe name="invites_iframe2" style="display: none"></iframe>
@@ -174,40 +174,40 @@
 							    </div>
 							    
 							      <form target="invites_iframe2" id="subscribe-form2" onsubmit  action="https://docs.google.com/forms/d/1RYGizJ1QgO-LwLhiH9mOvkzYTUheQg9v-9X6c3c1HI4/formResponse">
-							        <input type="email" required id="email-top" name="entry.1166011680" placeholder="Enter your email" class="input-email">
-							        <button type="submit" class="btn btn-primary">Request invitation</button>
+							        <input type="email" required id="email-top" name="entry.1166011680" placeholder="Váš email" class="input-email">
+							        <button type="submit" class="btn btn-primary">Mám záujem</button>
 							      </form>
 
 
 						        <p></br></br><p>
 
 						        <form action="contact.php" method="post">
-						        <h1>Contact us</h1>
+						        <h1>Kontaktujte nás</h1>
 						        	<div class="control-group">
-						        		<i class="icon-user"></i> Your Name
+						        		<i class="icon-user"></i> Vaše meno
 					                    <div class="controls">
 					                        <div class="input-prepend">
-					                            <input class="span12" placeholder="Full name" name ="cf_name" id="inputIcon" required="required" type="text">
+					                            <input class="span12" placeholder="vaše meno" name ="cf_name" id="inputIcon" required="required" type="text">
 					                        </div>
 					                    </div>
 					                </div>
 
 					                <div class="control-group">
-					                	<i class="icon-envelope"></i> Your Email
+					                	<i class="icon-envelope"></i> Váš email
 					                    <div class="controls">
 					                        <div class="input-prepend">
-					                            <input class="span12" placeholder="Your Email" name ="cf_email" id="inputIconMail" required="required" type="text">
+					                            <input class="span12" placeholder="Váš email" name ="cf_email" id="inputIconMail" required="required" type="text">
 					                        </div>
 					                    </div>
 					                </div>
 
-					                <i class="icon-pencil"></i> Your Message
+					                <i class="icon-pencil"></i> Vaša správa
 					      		     <div class="controls">
-					                    <textarea id="message" name="cf_message" class="span12" placeholder="Your Message" rows="5" required="required"></textarea>
+					                    <textarea id="message" name="cf_message" class="span12" placeholder="Vaša správa" rows="5" required="required"></textarea>
 					                </div>
 					                <p>
 					               
-					                <input class="btn btn-primary contact-btn" type="submit" value="Send">
+					                <input class="btn btn-primary contact-btn" type="submit" value="Odoslať">
 					                </p>
 					            </form>
 						</div>
@@ -269,15 +269,15 @@
 		<footer class="full-width footer">
 			<div class="container">
 				<div class="row-fluid">
-					<div class="span6 copyright">Copyright 2013 The Develovers. All Rights Reserved.</div>
-					<div class="span6 social">
+					<div class="span6 copyright">Copyright 2014 SafeBus. Všetky práva vyhradené.</div>
+					<!-- <div class="span6 social">
 						<ul>
 							<li><a href="#"><i class="socicon facebookcircle"></i></a></li>
 							<li><a href="#"><i class="socicon twittercircle"></i></a></li>
 							<li><a href="#"><i class="socicon dribbblecircle"></i></a></li>
 							<li><a href="#"><i class="socicon googlecircle"></i></a></li>
 						</ul>	
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</footer>
