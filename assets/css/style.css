@@ -931,7 +931,7 @@ html[xmlns] .slides {display: block;}
 .input-email form input{
 	height: 50px;
 	margin-right: 16px;
-	width: 333px;
+	width: 35%;
 	font-size: 1.5em;
 	margin-bottom: 20px;
 }
