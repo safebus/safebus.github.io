@@ -44,6 +44,10 @@
                     $('#contact-form-submitted2').show();
                     $('#subscribe-form2').hide();
             });
+            $('#contact-form').submit(function () {
+                    $('#contact-form-submitted3').show();
+                    $('#contact-form').hide();
+            });
         });
      </script>
 
@@ -182,13 +186,18 @@ Našou misiou je zjednodušiť deťom prístup k záujmovým a vzdelávacím akt
 
 						        <p></br></br><p>
 
-						        <form action="contact.php" method="post">
+						        <div id="contact-form-submitted3" class="footer-alert alert alert-success" style="display: none;">
+							        Ďakujeme za Váš mail, čoskoro Vás budeme kontaktovať.
+							    </div>
+
+						        <form target="invites_iframe2" id="contact-form" onsubmit  action="https://docs.google.com/forms/d/1PGwky6a1h2O7PHoq_7hp1Ji9ugTHOw-O3mj_nb66DQ0/formResponse" method="post">
 						        <h1>Kontaktujte nás</h1>
+
 						        	<div class="control-group">
 						        		<i class="icon-user"></i> Vaše meno
 					                    <div class="controls">
 					                        <div class="input-prepend">
-					                            <input class="span12" placeholder="vaše meno" name ="cf_name" id="inputIcon" required="required" type="text">
+					                            <input class="span12" placeholder="vaše meno" name ="entry.1080802514" id="inputIcon" required="required" type="text">
 					                        </div>
 					                    </div>
 					                </div>
@@ -197,14 +206,14 @@ Našou misiou je zjednodušiť deťom prístup k záujmovým a vzdelávacím akt
 					                	<i class="icon-envelope"></i> Váš email
 					                    <div class="controls">
 					                        <div class="input-prepend">
-					                            <input class="span12" placeholder="Váš email" name ="cf_email" id="inputIconMail" required="required" type="text">
+					                            <input class="span12" placeholder="Váš email" name ="entry.572614420" id="inputIconMail" required="required" type="text">
 					                        </div>
 					                    </div>
 					                </div>
 
 					                <i class="icon-pencil"></i> Vaša správa
 					      		     <div class="controls">
-					                    <textarea id="message" name="cf_message" class="span12" placeholder="Vaša správa" rows="5" required="required"></textarea>
+					                    <textarea id="message" name="entry.940603979" class="span12" placeholder="Vaša správa" rows="5" required="required"></textarea>
 					                </div>
 					                <p>
 					               
