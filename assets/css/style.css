@@ -930,7 +930,6 @@ html[xmlns] .slides {display: block;}
 
 .input-email form input{
 	height: 50px;
-	margin-right: 16px;
 	width: 35%;
 	font-size: 1.5em;
 	margin-bottom: 20px;
@@ -939,7 +938,8 @@ html[xmlns] .slides {display: block;}
 .input-email form .btn {
 	padding: 19px 24px;
 	font-size: 1.4em;
-	margin-top: -20px;
+	margin-top: -5px;
+	float: right;
 }
 
 .contact-btn{
