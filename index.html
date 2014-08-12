@@ -15,7 +15,7 @@
 	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/style-product.css" rel="stylesheet">	
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements and IE Fallback-->
     <!--[if lt IE 9]>
@@ -28,7 +28,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/ico/faviconBlue.png">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -43,6 +43,10 @@
             $('#subscribe-form2').submit(function () {
                     $('#contact-form-submitted2').show();
                     $('#subscribe-form2').hide();
+            });
+            $('#contact-form').submit(function () {
+                    $('#contact-form-submitted3').show();
+                    $('#contact-form').hide();
             });
         });
      </script>
@@ -63,13 +67,12 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</a>					
-						<a class="brand" data-section="body" href="index.html" style="width:120px">
-							<!-- <img src="assets/img/big-thing-logo.png" alt="Big Thing Logo" /> -->
-							<h1 class="hide">BIG Thing | App, Subscription Service and General Product Landing Page</h1>
-							<h2><img src="assets/img/SafeBus.png"/></h2>
+						<a class="brand" data-section="body" href="index.html">
+							<img src="assets/img/SafeBus.png" alt="SafeBus" style="width:18%; height:18%;"/>
+							<h1 class="hide">SafeBus - Bezpečná prepava Vašich detí</h1>
 						</a>	
 						<nav id="main-menu" class="nav-collapse collapse">
-							<h2 class="hide">Main Navigation</h2>
+							<h2 class="hide">Navigácia</h2>
 							<ul class="nav pull-right">
 								<li><a href="#features-section">ČO ROBÍME</a></li>
 								<li><a href="#contact-form-section">KONTAKT</a></li>
@@ -90,17 +93,17 @@
 							<p class="description">
 							SafeBus Vám šetrí čas, ktorý venujete preprave Vašich detí do škôl / škôlok, na krúžky a späť domov.</p>	
 
-							<!-- <div class="subscribe_form"> -->
+							
 							 <iframe name="invites_iframe" style="display: none"></iframe>
 							    <div id="contact-form-submitted" class="alert alert-success" style="display: none;">
 							        Ďakujeme za prejavený záujem, čoskoro Vás budeme kontaktovať.
 							    </div>
 							    
-							      <form target="invites_iframe" id="subscribe-form" onsubmit  action="https://docs.google.com/forms/d/1RYGizJ1QgO-LwLhiH9mOvkzYTUheQg9v-9X6c3c1HI4/formResponse">
-							        <input type="email" required id="email-top" name="entry.1166011680" placeholder="Váš email">
-							        <button type="submit" class="btn btn-primary">Mám záujem</button>
+							      <form target="invites_iframe" id="subscribe-form" onsubmit  action="https://docs.google.com/forms/d/1UOFCu9Tp29GOJJR89-prR3lhSD9TeM6ZrG81s5FxPM8/formResponse">
+								    <input class="span8" type="email" required id="email-top" name="entry.2030688341" placeholder="Váš email">
+								    <button type="submit" class="span4 btn btn-primary">Mám záujem</button>
 							      </form>
-							<!-- </div> -->
+							
 						</div>
 
 					</div>
@@ -117,7 +120,7 @@
 			<section id="features-section" class="container section features">
 				<div class="row-fluid feature-item">
 					<div class="span7">
-						<iframe src="http://prezi.com/embed/i-bsf2g1xixs/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined&amp;html5=1" width="620" height="400" frameBorder="0" webkitAllowFullScreen mozAllowFullscreen allowfullscreen></iframe>
+						<iframe class= "hidden-phone hidden-tablet" src="http://prezi.com/embed/i-bsf2g1xixs/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined&amp;html5=1" width="620" height="400" frameBorder="0" webkitAllowFullScreen mozAllowFullscreen allowfullscreen></iframe>
 					</div>
 					<div class="span5 right-text">
 						<h2 class="heading">Čo je SafeBus?</h2>
@@ -175,21 +178,26 @@ Našou misiou je zjednodušiť deťom prístup k záujmovým a vzdelávacím akt
 							        Ďakujeme za prejavený záujem, čoskoro Vás budeme kontaktovať.
 							    </div>
 							    
-							      <form target="invites_iframe2" id="subscribe-form2" onsubmit  action="https://docs.google.com/forms/d/1RYGizJ1QgO-LwLhiH9mOvkzYTUheQg9v-9X6c3c1HI4/formResponse">
-							        <input type="email" required id="email-top" name="entry.1166011680" placeholder="Váš email" class="input-email">
+							      <form target="invites_iframe2" id="subscribe-form2" onsubmit  action="https://docs.google.com/forms/d/1UOFCu9Tp29GOJJR89-prR3lhSD9TeM6ZrG81s5FxPM8/formResponse">
+							        <input type="email" required id="email-top" name="entry.2030688341" placeholder="Váš email" class="input-email">
 							        <button type="submit" class="btn btn-primary">Mám záujem</button>
 							      </form>
 
 
 						        <p></br></br><p>
 
-						        <form action="contact.php" method="post">
+						        <div id="contact-form-submitted3" class="footer-alert alert alert-success" style="display: none;">
+							        Ďakujeme za Váš mail, čoskoro Vás budeme kontaktovať.
+							    </div>
+
+						        <form target="invites_iframe2" id="contact-form" onsubmit  action="https://docs.google.com/forms/d/1PGwky6a1h2O7PHoq_7hp1Ji9ugTHOw-O3mj_nb66DQ0/formResponse" method="post">
 						        <h1>Kontaktujte nás</h1>
+
 						        	<div class="control-group">
 						        		<i class="icon-user"></i> Vaše meno
 					                    <div class="controls">
 					                        <div class="input-prepend">
-					                            <input class="span12" placeholder="vaše meno" name ="cf_name" id="inputIcon" required="required" type="text">
+					                            <input class="span12" placeholder="vaše meno" name ="entry.1080802514" id="inputIcon" required="required" type="text">
 					                        </div>
 					                    </div>
 					                </div>
@@ -198,14 +206,14 @@ Našou misiou je zjednodušiť deťom prístup k záujmovým a vzdelávacím akt
 					                	<i class="icon-envelope"></i> Váš email
 					                    <div class="controls">
 					                        <div class="input-prepend">
-					                            <input class="span12" placeholder="Váš email" name ="cf_email" id="inputIconMail" required="required" type="text">
+					                            <input class="span12" placeholder="Váš email" name ="entry.572614420" id="inputIconMail" required="required" type="text">
 					                        </div>
 					                    </div>
 					                </div>
 
 					                <i class="icon-pencil"></i> Vaša správa
 					      		     <div class="controls">
-					                    <textarea id="message" name="cf_message" class="span12" placeholder="Vaša správa" rows="5" required="required"></textarea>
+					                    <textarea id="message" name="entry.940603979" class="span12" placeholder="Vaša správa" rows="5" required="required"></textarea>
 					                </div>
 					                <p>
 					               
@@ -308,3 +316,4 @@ Našou misiou je zjednodušiť deťom prístup k záujmovým a vzdelávacím akt
 	
 </body>
 </html>
+
