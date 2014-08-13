@@ -939,6 +939,7 @@ html[xmlns] .slides {display: block;}
 	padding: 19px 24px;
 	font-size: 1.4em;
 	margin-top: -5px;
+	float: right;
 }
 
 .contact-btn{
