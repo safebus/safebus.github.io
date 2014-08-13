@@ -960,3 +960,8 @@ html[xmlns] .slides {display: block;}
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #999;
 }
+
+.custom-li {
+    padding-top: 15px;
+    font-size: 35px;
+}
